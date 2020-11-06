@@ -1,0 +1,137 @@
+body {
+    margin: 0;
+}
+
+main {
+    background-color: #e3e8ff;
+    padding: 0;
+    margin: 0;
+}
+
+h1  {
+    color: #080808;
+    text-align: center;
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 2em;
+    margin: 0;
+    padding-top: 1em;
+    background-color: #a4bfd9;
+}
+
+.lil-title {
+    color: #080808;
+    text-align: center;
+    font-family: 'IBM Plex Mono', monospace;
+    margin: 0;
+    margin-bottom: 4em;
+    background-color: #a4bfd9;
+    padding-top: 0.5em;
+    padding-bottom: 2em;
+
+}
+
+.img-style:hover .overlay {
+    height: 100%;
+}
+
+.img-style {
+    position: relative;
+    width: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #a4bfd9;
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: .7s ease;
+    border-radius: 2em; 
+  }
+
+img {
+    display: block;
+    width: 100%;
+    height: auto; 
+    border-radius: 2em;
+}
+
+figcaption {
+    color:  #080808;
+    text-align: center;
+    margin-top: 15%;
+    margin-bottom: 20%;
+    padding-top: 1em;
+    line-height: 1em;
+    font-family: 'Source Serif Pro', serif;
+    font-size: 3em;
+}
+
+.plus {
+    color: #080808;
+    background: #a4bfd9;
+    padding: 1.5em;
+    text-align: center;
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 2em;
+    margin: 0;
+}
+
+.plus-ul  {
+    display: flex;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 1.4em;
+    line-height: 1.7em;
+    flex-direction: column;
+    align-items: center;
+}
+
+.minus {
+    color: #080808;
+    background: #a4bfd9;
+    padding: 1.5em;
+    text-align: center;
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 2em;
+    margin: 0;
+}
+
+.minus-ul {
+    display: flex;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 1.2em;
+    line-height: 1.7em;
+    flex-direction: column;
+    align-items: center;
+}
+
+.quote {
+    font-family: 'Pacifico', cursive;
+    font-size: 1em;
+    line-height: 3em;
+    color: #090605;
+    padding-left: 50%;
+}
+
+.quote1 {
+    font-family: 'Pacifico', cursive;
+    font-size: 0.8em;
+    line-height: 0.3em;
+    color: #090605;
+    padding-left: 75%;
+}
+
+.link {
+    color: #080808;
+    background: #a4bfd9;
+    padding: 1.5em;
+    text-align: center;
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 2em;
+    margin: 0;
+}
